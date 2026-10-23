@@ -1,0 +1,16 @@
+INSERT INTO usuarios (nombre,apellido,correo,telefono,rol,activo,fecha_registro,referido_por) VALUES
+('Carlos','González','carlos.gonzalez@correo.com','62792285','administrador',TRUE,'2025-01-01',NULL),
+('María','Rodríguez','maria.rodriguez@correo.com','69843470','soporte',TRUE,'2025-02-03',NULL),
+('José','Pérez','jose.perez@correo.com','65142886','cliente',TRUE,'2025-03-05',NULL),
+('Ana','Castillo','ana.castillo@correo.com','65291201','cliente',TRUE,'2025-04-07',2),
+('Luis','Batista','luis.batista@correo.com','62218459','cliente',TRUE,'2025-05-09',3),
+('Sofía','Herrera','sofia.herrera@correo.com','66083294','cliente',TRUE,'2025-06-11',4),
+('Miguel','Samaniego','miguel.samaniego@correo.com','67655079','cliente',TRUE,'2025-07-13',4),
+('Valeria','Moreno','valeria.moreno@correo.com','62986415','cliente',TRUE,'2025-08-15',4),
+('Jorge','Vásquez','jorge.vasquez@correo.com','64745783','cliente',TRUE,'2025-09-17',5),
+('Daniela','Jaén','daniela.jaen@correo.com','67006791','cliente',FALSE,'2025-10-19',6),
+('Ricardo','Cedeño','ricardo.cedeno@correo.com','67051040','cliente',TRUE,'2025-11-21',5),
+('Gabriela','Ortega','gabriela.ortega@correo.com','69661551','cliente',TRUE,'2025-12-23',11),
+('Andrés','Quintero','andres.quintero@correo.com','63701978','cliente',TRUE,'2025-01-25',3),
+('Paola','Barría','paola.barria@correo.com','65619271','cliente',FALSE,'2025-02-27',9),
+('Fernando','Sánchez','fernando.sanchez@correo.com','61177927','cliente',TRUE,'2025-03-02',3);
